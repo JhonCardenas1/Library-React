@@ -19,4 +19,6 @@ Este proyecto cuenta con un backend que funciona de manera local, mira la URL de
 3. Clona el repositorio https://github.com/JhonCardenas1/Library-React.git
 4. Ejecuta el comando npm install
 5. Ingresa a la carpeta mi-app-library y luego ejecuta el comando npm run dev.
-3. Que inicie el juego... :D
+6. Que inicie el juego... :D
+
+## Comentario en development

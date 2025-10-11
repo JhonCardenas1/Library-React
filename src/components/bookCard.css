@@ -1,0 +1,57 @@
+.libro__contenedor{
+  background: var(--color1);
+  border-radius: 12px;
+  border: 2px solid var(--color3);
+  padding: 1rem;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.libro-contenedor:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.libro__titulo{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.libro__imagen-contenedor {
+  text-align: center;
+}
+
+.libro__imagen {
+  width: 70%;
+}
+
+.libro__descripcion{
+  font-size: 1rem;
+  color: var(--color2);
+  text-align: center;
+}
+
+.libro__autor {
+  font-size: 0.95rem;
+  color: var(--color2);
+  text-align: center;
+  font-style: italic;
+}
+
+.libro__precio{
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.libro__boton{
+  background: var(--color5);
+  color: var(--color1);
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}

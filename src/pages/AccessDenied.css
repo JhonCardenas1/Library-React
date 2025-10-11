@@ -1,0 +1,45 @@
+.pagina-denegada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  background-color: #fafafa;
+  padding: 2rem;
+}
+
+.denegado__contenedor {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 2rem 3rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.denegado__titulo {
+  color: var(--color3);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.denegado__mensaje {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.denegado__boton {
+  display: inline-block;
+  background-color: var(--color2);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.denegado__boton:hover {
+  background-color: var(--color3);
+}

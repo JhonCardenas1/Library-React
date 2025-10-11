@@ -1,0 +1,19 @@
+
+.toast__bienvenida {
+  background-color: var(--color2);
+  color: #fff;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 420px;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.home .toast__bienvenida {
+  opacity: 1;
+}
+

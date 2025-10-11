@@ -1,0 +1,76 @@
+.formulario-libro {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.pagina-crear-libro h2{
+  text-align: center;
+  padding: 2rem;
+}
+
+.formulario-libro__fieldset {
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.formulario-libro__titulo {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color3);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.formulario-libro__grupo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formulario-libro__etiqueta {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.formulario-libro__entrada {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+
+.formulario-libro__entrada,
+.formulario-libro__entrada::placeholder,
+textarea.formulario-libro__entrada::placeholder {
+  font-family: inherit;
+  font-size: 1rem;
+  color: #333;
+}
+
+.formulario-libro__entrada:focus {
+  border-color: var(--color2); 
+  outline: none;
+}
+
+.formulario-libro__boton {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--color2);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario-libro__boton:hover {
+  background-color: var(--color3);
+}

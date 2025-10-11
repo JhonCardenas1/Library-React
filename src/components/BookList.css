@@ -1,0 +1,12 @@
+.lista-libros {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.lista-libros__vacia {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  grid-column: 1 / -1;
+}

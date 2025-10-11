@@ -1,0 +1,29 @@
+.contenido__principal{
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .contenido__principal {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .filtros {
+    order: -1;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .catalogo {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .paginador {
+    margin-top: 1rem;
+  }
+}

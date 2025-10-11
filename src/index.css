@@ -1,0 +1,166 @@
+:root{
+  --color1: #ffffff; 
+  --color2: #32A89C; 
+  --color3: #009688; 
+  --color4: #44E3D3; 
+  --color5: #00635A; 
+  --color_bg: #f5f7f8;   
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* reset basico */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estructura del cuerpo general*/
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color5);
+  background-color: var(--color_bg);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titulo__principal {
+    font-size: 1.8rem;
+  }
+
+  .navegacion {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .navegacion a {
+    font-size: 1rem;
+  }
+
+  .contenido__principal {
+    grid-template-columns: 1fr;
+  }
+
+  .titulo__principal{
+    font-size: 2rem;
+  }
+
+  .filtros {
+    order: -1;
+    margin-bottom: 1rem;
+  }
+
+  .catalogo {
+    justify-content: center;
+  }
+
+  .carrito-panel {
+    width: 100%;
+  }
+
+  .formulario-libro__fieldset {
+    padding: 1rem;
+  }
+
+  .formulario-libro__grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .formulario-libro__entrada,
+  .formulario-libro__boton {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .formulario-libro__boton {
+    padding: 0.8rem;
+  }
+
+  .lista-libros {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .tarjeta-libro {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .tarjeta-libro__imagen {
+    width: 100%;
+    height: auto;
+  }
+
+  .tarjeta-libro__acciones {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .tarjeta-libro__btn-editar,
+  .tarjeta-libro__btn-eliminar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .biblioteca-encabezado {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .biblioteca-btn-agregar {
+    width: 90%;
+    text-align: center;
+  }
+
+  .confirm-dialog {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .footer {
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo__principal {
+    font-size: 1.5rem;
+  }
+
+  .biblioteca-btn-agregar {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+
+  .formulario-libro__titulo {
+    font-size: 1.2rem;
+  }
+
+  .formulario-libro__entrada,
+  .formulario-libro__boton {
+    font-size: 0.95rem;
+  }
+
+  .tarjeta-libro {
+    padding: 1rem;
+  }
+}

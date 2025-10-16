@@ -1,0 +1,27 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">Pila de libros - favicon</title>
+
+  <!-- Transparent background by default -->
+
+  <!-- Book 1 (top) -->
+  <g transform="translate(6,6)">
+    <rect x="8" y="0" rx="3" ry="3" width="42" height="12" fill="#004D40" stroke="#01332a" stroke-width="2"></rect>
+    <rect x="8" y="2" rx="2" ry="2" width="10" height="8" fill="#f7f4ee"></rect>
+  </g>
+
+  <!-- Book 2 (middle, slightly offset) -->
+  <g transform="translate(6,18)">
+    <rect x="4" y="0" rx="3" ry="3" width="44" height="12" fill="#0ea57a" stroke="#066a4f" stroke-width="2"></rect>
+    <rect x="4" y="2" rx="2" ry="2" width="10" height="8" fill="#f7f4ee"></rect>
+  </g>
+
+  <!-- Book 3 (bottom) -->
+  <g transform="translate(6,30)">
+    <rect x="0" y="0" rx="3" ry="3" width="46" height="12" fill="#ffffff" stroke="#01332a" stroke-width="2"></rect>
+    <rect x="0" y="2" rx="2" ry="2" width="10" height="8" fill="#f7f4ee"></rect>
+  </g>
+
+  <!-- Simple shadow under stack -->
+  <ellipse cx="32" cy="48" rx="20" ry="4" fill="rgba(0,0,0,0.12)"></ellipse>
+</svg>
